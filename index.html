@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTML & CSS Basic Summary</title>
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/shared.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML & CSS Basic Summary</h1>
+      <img src="assets/images/html-css.png" alt="HTML & CSS logos" />
+    </header>
+
+    <main>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (Hyper Text Markup language) is used to define our page content,
+          structure and meaning. You <strong>don't</strong> use it for styling
+          purposes. Use CSS for that instead!
+        </p>
+        <ul>
+          <li class="extra-important">
+            HTML uses "elements" to describe (anotate) content
+          </li>
+          <li>
+            HTML elements typically have an opening tag, content and then a
+            closing tag
+          </li>
+          <li class="extra-important">
+            You can also have void (empty) elements like images
+          </li>
+          <li class="extra-important">
+            You can also configure elements with atributes
+          </li>
+          <li>
+            There is a long list of available elements which you'll learn over
+            time, no worries.
+          </li>
+        </ul>
+        <p>
+          Learn more about all available HTML elements on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            >MDN HTML elements reference</a
+          >
+        </p>
+      </section>
+
+      <section>
+        <h2>CSS Summary</h2>
+        <p>CSS (Cascading Style Sheets) is used for styling your content.</p>
+        <ol>
+          <li>Styles are assigned by property-value pairs</li>
+          <li>You can assign styles via the "style" attribute</li>
+          <li class="extra-important">
+            To avoid code duplication, you typically use global styles (e.g. via
+            the "style" element) instead
+          </li>
+          <li>
+            Altternatively, you can work with external styllesheet files which
+            you "link" to
+          </li>
+          <li class="extra-important">
+            When working with CSS, concepts like "inheritence", "specificity"
+            and the "box-model" should be understood.
+          </li>
+        </ol>
+        <p>
+          Learn more about all available CSS properties and values on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            >MDN CSS property reference</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="assets/pdfs/html-css-basics-summary.pdf" target="_blank"
+        >PDF Summary</a
+      >
+      <p>(c) Fluttercraft.io</p>
+    </footer>
+  </body>
+</html>
+
+<!-- 
+body - rgb(244, 234, 255); 
+h1 - rgb(88, 49, 196); 
+main - rgb(122, 74, 280); 
+main-color - rgb(248, 241, 255); 
+li - rgb(255, 237, 177); 
+border - rgb(247, 209, 85); 
+a - color: rgb(36, 3, 102); background-color: rgb(255, 237, 177);
+a hover, active - background-color: rgb(250, 201, 39);
+footer p -  color: rgb(131, 113, 149);
+footer a -   background-color: rgb(250, 201, 39); color: rgb(66, 31, 4);
+footer a hover,active -  background-color: rgb(247, 209, 85);
+-->
